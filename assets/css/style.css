@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans';
+    color: #000f08;
+    text-align: center;
+    
+}
+nav{
+    background-color: #000f08;
+    color: white;
+    text-align: left;
+    font-size: 25px;
+    padding: 20px;
+}
+nav li{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 30px;
+}
+nav li a{
+    color: white;
+    text-decoration: none;
+}
+svg, .icono{
+    width: 40px;
+    fill: white;
+}
+header{
+    background-image: url(../img/bg-hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 0px 3px 6px #00000080;
+    text-align: right;
+    color: white;
+}
+header h1{
+    font-size: 60px;
+    font-weight: 800;
+}
+header h2{
+    font-size: 40px;
+    font-weight: 400;
+}
+#ubicacion{
+    padding: 150px;
+}
+#ubicacion h2{
+    font-size: 45px;
+    margin: 40px 0px 20px 0px;
+}
+#ubicacion p{
+    font-size: 25px;
+}
+#proxima-charla{
+    background-color: #a4452c;
+    padding: 100px;
+    color: white;
+}
+#proxima-charla img{
+    height: 300px;    
+}
+#proxima-charla img, .charla-texto{
+    display: inline-block;
+    vertical-align: middle;
+}
+#proxima-charla .charla-texto{
+    text-align: left;
+    width: 50%;
+    margin-left: 40px;
+}
+#proxima-charla .charla-texto h2{
+    font-size: 45px;
+}
+#proxima-charla .charla-texto h3{
+    font-size: 40px;
+}
+#proxima-charla .charla-texto h4{
+    font-size: 33px;
+}
+#proxima-charla .charla-texto h5{
+    font-size: 20px;
+}
+#proxima-charla .charla-texto p{
+    font-size: 25px;
+}
+#proxima-charla .charla-texto h4 h5 p{
+    font-weight: 400;
+}
+#eventos{
+    padding: 100px;
+}
+#eventos h2{
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+#eventos article{
+    display: inline-block;
+    margin: 20px;
+}
+#eventos article h3{
+    margin-top: 30px;
+    font-size: 35px;
+}
+footer{
+    background-color: #000f08;
+    color: white;
+    font-size: 25px;
+    padding: 100px;
+}
+footer i{
+    font-size: 60px;
+    color:white;
+    margin-left: 20px;
+}
+footer p {
+    margin-top: 25px;
+}
+/*#events{
+    width: auto; 
+    margin: 100px 420px;
+    text-align: left;
+    line-height: 1.8;
+}*/
+#events{
+    min-width: 400px;
+    max-width: 1080px;
+    margin: 100px 420px;
+    text-align: left;
+    line-height: 1.8;
+    
+}
+#events h2{
+    font-size: 45px;
+    font-weight: bold;
+    color: #000f08;
+    margin: 30px 0px;
+}
+#events p{
+    font-size: 25px;
+}
